@@ -1,5 +1,13 @@
 #include <iostream>
 
+using namespace std;
+
+void solve() { 
+    
+}
+
 int main() {
-    std::cout << "Hello world" << std::endl;
+    int n;
+    cin >> n;
+    cout << (n > 2 && n % 2 == 0 ? "YES" : "NO");
 }
